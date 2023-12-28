@@ -60,7 +60,7 @@ services:
 
   voiture-service:
     build:
-      context: ./voiture
+      context: ./car
     ports:
       - "8084:8084"
     depends_on:
